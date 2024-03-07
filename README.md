@@ -10,7 +10,9 @@
 
 Offical server for Crystalline Bliss. Use this to houst your own Crystalline Bliss servers.
 
-Server Config
+## Server Config
+
+You can configure the server with a `server.json` file at the root of this directory.
 
 ```ts
 export type GameServerData = {
@@ -29,12 +31,12 @@ export type GameServerData = {
   //default is ./errors/
   logErrorsPath?: string;
   logGames?: boolean;
-    //default is ./logs/
+  //default is ./logs/
   logGamePath?: string;
 };
 ```
 
-### Links
+### Crystalline Bliss Links
 
 - [Visit Site](https://crystallinebliss.dev/)
 - [Steam Page](https://store.steampowered.com/app/2547740/Crystalline_Bliss/)
