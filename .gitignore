@@ -1,6 +1,6 @@
 *.map.js
 server.json
-/cert/
+/cert/*.*
 /errors/*.json
 /logs/*.json
 node_modules
