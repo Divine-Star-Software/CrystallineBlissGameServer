@@ -1,0 +1,15 @@
+{
+  "name": "cb-game-server",
+  "version": "0.0.0",
+  "description": "Crystalline Bliss Game Server",
+  "private": true,
+  "scripts": {
+    "start": "node ./code/server.js",
+    "create-cert": "mkdir cert && cd ./cert && npx mkcert create-ca && npx mkcert create-cert "
+  },
+  "author": "Divine Star LLC",
+  "license": "Copyright",
+  "devDependencies": {
+    "mkcert": "^1.5.1"
+  }
+}

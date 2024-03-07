@@ -1,0 +1,6 @@
+*.map.js
+server.json
+/cert/
+/errors/*.json
+/logs/*.json
+node_modules

@@ -1,0 +1,11 @@
+{
+  "port": 9000,
+  "url": "localhost",
+  "name": "Localhost Test Server",
+  "description": "Localhost test server.",
+  "country": "US",
+  "language": "en",
+  "gameVersion": "any",
+  "certKeyPath": null,
+  "certCrtPath": null
+}
