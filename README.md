@@ -23,9 +23,9 @@ type GameServerData = {
   country: string;
   language: string;
   gameVersion: string;
-  //default is ./cert/cert.key used for devopment or local use
+  //default is ./cert/cert.key used for dev or local use
   certKeyPath?: string;
-  //default is ./cert/cert.crt used for devopment or local use
+  //default is ./cert/cert.crt used for dev or local use
   certCrtPath?: string;
   logErrors?: boolean;
   //default is ./errors/
